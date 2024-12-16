@@ -1,0 +1,68 @@
+/*selector universal*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*selector por etiqueta*/
+h1{
+    color: crimson;
+}
+p{
+    color: darkorange;
+}
+
+div p{
+color: purple;
+}
+/*selector por clase*/
+.title{
+color: green;
+}
+/*selector por id*/
+#unique-title{
+    color: blue;
+}
+.container-1{
+    background-color: crimson;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.container-2{
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+}
+
+.special-image{
+width: 450px;
+transition: 250ms;
+border-radius: 100%;
+}
+
+.special-image:hover{
+    border-radius: 10px;
+transform: scale(1.1);
+}
+
+.my-btn{
+background-color: white;
+border: 1px solid black;
+padding:  0.5rem 1rem;
+border-radius: 8px;
+transition: 150ms;
+}
+
+.my-btn:hover{
+background-color: green;
+color: white;
+border: 1px solid black;
+
+}
+
+
+.container-2 p {
+    color: limegreen;
+}
